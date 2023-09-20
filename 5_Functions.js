@@ -69,11 +69,11 @@
 // f15("Adnan","Sohail")
 // console.log(f15("Ad","So"))
 
-//Higher Order Functions
-//The Function that takes as arguments and returns a function
-parent = function(){console.log("Outer Function");
-return function(){console.log("Inner Function")}}
-child=parent()
-child()
-console.log(typeof(child))
-console.log(typeof(parent))
+// //Higher Order Functions
+// //The Function that takes as arguments and returns a function
+// parent = function(){console.log("Outer Function");
+// return function(){console.log("Inner Function")}}
+// child=parent()
+// child()
+// console.log(typeof(child))
+// console.log(typeof(parent))
