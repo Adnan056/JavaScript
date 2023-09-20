@@ -48,4 +48,3 @@ console.log(s.substring(0,6))
 
 //substr()
 console.log(s.substr(0,6))
-
