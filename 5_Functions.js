@@ -77,3 +77,45 @@
 // child()
 // console.log(typeof(child))
 // console.log(typeof(parent))
+
+// f16=function(a)
+//     { 
+//         console.log(a); 
+//         return function(b)
+//         {
+//             console.log(a+b)
+//             console.log(a-b)
+//             console.log(a*b)
+//         }
+//     }
+// f=f16(10)
+// f(5)
+
+// //IIFE
+// (function(){console.log("IIFE")})();
+
+// (function(a,b){console.log(a,b)})(10,20)
+
+// //Closure
+// function f17(){console.log("F17 function called")}
+// f17()
+// f17=null
+// f17()
+
+// function f18(a){console.log(a);
+// function f19(b){console.log(b)};return f19}
+// f=f18(100)
+// f(200)
+// delete f18()
+// console.log(f18.a)
+
+//Callback Functions
+//Function that is passed as argument to another function and invoked in another function
+function f20(fname,lname){console.log(fname+" "+lname)}
+// f20("Adnan","Sohail")
+function f21(fname,lname){
+    first=fname
+    last=lname
+    f20(first,last)
+}
+f21("Adnan","Sohail")
