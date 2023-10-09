@@ -190,6 +190,6 @@
 // let l21=l18.map((values)=>{console.log(values*2)})
 
 //Reduce
-l22=[10,20,30,40,50]
-function f7(x,y){return x+y}
-console.log(l22.reduce(f7))
+// l22=[10,20,30,40,50]
+// function f7(x,y){return x+y}
+// console.log(l22.reduce(f7))
