@@ -1,4 +1,4 @@
-//OOPS--> Onject Oriented Programming System
+//OOPS--> Object Oriented Programming System
 
 //Class: Class is blueprint or a template 
 // class userprofile {
